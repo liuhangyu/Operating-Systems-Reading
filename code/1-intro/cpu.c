@@ -22,7 +22,7 @@ void Spin(int howlong)
 int main(int argc, char *argv[])
 {
     printf("value of argc :%d\n",argc);
-    if (argc != 3) {
+    if (argc != 2) {
 	fprintf(stderr, "usage: cpu <string>\n");
 	exit(1);
     }
@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
 
     while (1) {
 	printf("%s\n", str);
-    printf("%s\n", argv[2]);
 	Spin(1);
     }
     return 0;

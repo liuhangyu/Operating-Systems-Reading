@@ -6,7 +6,8 @@ Reading Notes of Operating Systems: Three Easy Pieces
 
 **Some function tips of operating systems**
 - virtualization
-
-- manage resources
+	- CPU
+	- Memory
+- manage resources (policy to system call)
 
 - provide system API
