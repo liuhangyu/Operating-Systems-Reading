@@ -11,3 +11,7 @@ Reading Notes of Operating Systems: Three Easy Pieces
 - manage resources (policy to system call)
 
 - provide system API
+
+- persistence
+
+- isolation
