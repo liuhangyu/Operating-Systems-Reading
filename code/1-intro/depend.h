@@ -1,5 +1,7 @@
-#ifndef __common_h__
-#define __common_h__
+#ifndef __depend_h__
+#define __depend_h__
+
+// create the dependence for the practice mentioned in the book
 
 #include <sys/time.h>
 #include <assert.h>
@@ -53,4 +55,5 @@ Pthread_mutex_init(pthread_mutex_t *mutex, pthread_mutexattr_t *attr) {
 }
 
 
-#endif // __common_h__
+#endif
+// fix the name
